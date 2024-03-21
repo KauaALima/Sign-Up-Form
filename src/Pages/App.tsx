@@ -27,10 +27,10 @@ export function App() {
   }
 
   return (
-    <div className="w-full h-[100vh] max-w-[1440px] my-0 mx-auto flex items-center justify-center">
-      <div className="w-full flex gap-3 items-center justify-center">
-        <section className="w-full max-w-lg flex flex-col gap-10">
-          <h1 className="text-5xl font-bold text-white">Learn to code by watching others</h1>
+    <div className="w-full h-[100vh] max-w-[1440px] my-8 mx-auto flex items-center justify-center md:my-0">
+      <div className="w-full flex flex-col gap-8 items-center justify-center lg:flex-row">
+        <section className="w-full max-w-md flex flex-col text-center gap-10 lg:max-w-lg lg:text-left">
+          <h1 className="text-2xl font-bold text-white md:text-3xl lg:text-5xl">Learn to code by watching others</h1>
           <p className="text-white text-base font-normal">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. </p>
         </section>
 
